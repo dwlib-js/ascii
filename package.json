@@ -1,0 +1,59 @@
+{
+  "name": "@dwlib/ascii",
+  "version": "1.0.0",
+  "description": "ASCII",
+  "main": "lib/index.js",
+  "imports": {
+    "#intrinsics/*": "@dwlib/intrinsics/abstract/*",
+    "#primordials/*": "@dwlib/primordials/*",
+    "#types/*": "@dwlib/types/*",
+    "#abstract/*": "@dwlib/abstract/*",
+    "#abstract-functions/*": {
+      "require": "./lib/abstract/*.js",
+      "import": "./lib/abstract/*.mjs"
+    }
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    },
+    "./*": {
+      "require": "./lib/*.js",
+      "import": "./lib/*.mjs"
+    },
+    "./abstract": {
+      "require": "./lib/abstract/index.js",
+      "import": "./lib/abstract/index.mjs"
+    },
+    "./abstract/*": {
+      "require": "./lib/abstract/*.js",
+      "import": "./lib/abstract/*.mjs"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/ascii.git"
+  },
+  "keywords": [
+    "ascii",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/ascii/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/ascii#readme",
+  "dependencies": {
+    "@dwlib/abstract": "^1.0.8",
+    "@dwlib/intrinsics": "^1.0.4",
+    "@dwlib/primordials": "^1.0.4",
+    "@dwlib/types": "^1.0.1"
+  }
+}
