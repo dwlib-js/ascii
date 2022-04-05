@@ -1,6 +1,6 @@
 {
   "name": "@dwlib/ascii",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ASCII",
   "main": "lib/index.js",
   "imports": {
@@ -51,7 +51,7 @@
   },
   "homepage": "https://github.com/dwlib-js/ascii#readme",
   "dependencies": {
-    "@dwlib/abstract": "^1.0.8",
+    "@dwlib/abstract": "^1.0.9",
     "@dwlib/intrinsics": "^1.0.4",
     "@dwlib/primordials": "^1.0.4",
     "@dwlib/types": "^1.0.1"
