@@ -1,6 +1,6 @@
 {
   "name": "@dwlib/ascii",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ASCII",
   "main": "lib/index.js",
   "imports": {
